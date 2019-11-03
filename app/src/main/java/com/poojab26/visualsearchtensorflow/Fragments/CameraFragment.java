@@ -116,7 +116,7 @@ public class CameraFragment extends Fragment {
                 else
                     productListFragment.setSimilarItems(true);
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.activity_main, productListFragment, null)
+                        .replace(R.id.search_bar, productListFragment, null)
                         .commit();
 
 
