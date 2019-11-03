@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 
 import com.poojab26.visualsearchtensorflow.Fragments.CameraFragment;
@@ -34,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
                         .commit();
 
                 fabButtonOpenCamera.setVisibility(View.GONE);
+                findViewById(R.id.textView2).setVisibility(View.GONE);
+                findViewById(R.id.textView3).setVisibility(View.GONE);
+                findViewById(R.id.search_input).setVisibility(View.GONE);
+                findViewById(R.id.button2).setVisibility(View.GONE);
             }
         });
 //        toolbar = findViewById(R.id.toolbar);
